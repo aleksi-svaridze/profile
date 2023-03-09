@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(297.24deg, #E8EFFC 8.25%, #FFFFFF 91.76%);
+    height: 100vh;
+}
+.profile {
+    width: 474px;
+    margin: 83px auto 0;
+    border-radius: 10px; 
+}
+.profile__avatar {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.arrow {
+    width: 27px;
+    height: 27px;
+    background-color: #E3004F;
+    transform: rotate(45deg);
+    margin: 37px auto -14px;
+}
+.profile__username {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 116px;
+    color: #fff;
+    background-color: #E3004F;
+    height: 116px;
+    border-radius: 10px 10px 0 0;
+}
+.profile__info {
+    height: 127px;
+    background-color: #fff;
+    padding: 42px 30.33px 42px 55.5px;
+}
+.profile__info--rounded-corners {
+    border-radius: 0 0 10px 10px;
+}
+.profile__info-text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: #505760;
+    float: left;
+}
+.profile__info-badge {
+    display: block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    line-height: 34px;
+    float: right;
+}
+.profile__info-badge--inbox {
+    background-color: #FF2BA3;
+}
+.profile__info-badge--calendar {
+    background-color: #9013FE;
+}
+.profile__info-badge--tasks {
+    background-color: #00D0E6;
+}
