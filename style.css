@@ -9,7 +9,7 @@ body {
 }
 .profile {
     width: 474px;
-    margin: 83px auto 0;
+    margin: 83px auto;
     border-radius: 10px; 
 }
 .profile__avatar {
