@@ -20,11 +20,14 @@ body {
     margin: 0 auto;
 }
 .arrow {
-    width: 27px;
-    height: 27px;
-    background-color: #E3004F;
-    transform: rotate(45deg);
-    margin: 37px auto -14px;
+    width: 0;
+    height: 0;
+    border: 27px solid #E3004F;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+
+    margin: 3px auto -8px;
 }
 .profile__username {
     font-size: 35px;
